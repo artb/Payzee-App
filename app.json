@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Payzee",
+    "slug": "payzee",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./src/images/icon.png",
+    "splash": {
+      "image": "./src/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#b81e38"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.emb.payzee"
+    },
+    "description": ""
+  }
+}
